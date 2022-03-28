@@ -1,0 +1,53 @@
+head div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#square {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 130px;
+    top:0;
+    left:0;
+    background-color: black;
+}
+body {
+    background-color:rgb(207, 219, 230);
+    width:100%;
+    height: 100%;
+}
+#square p {
+    text-align: center;
+    color: white;
+    font: 2.2em Mont Bold;
+}
+
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    margin:40px;
+    width: 380px;
+    height: 500px;
+}
+.container img {
+    width: 380px;
+    height: 250px;
+    border: 8px solid rgb(0, 158, 197);
+    background-size: 380px 250px;
+}
+.container p {
+    font: 0.9em Mont Light;
+    text-align: justify; 
+    
+}
+.container span {
+    margin-top:10px;
+    font: 1.3em Mont Bold;
+}
+
+
+.blocks {
+    display: flex;
+    justify-content: center;
+}
